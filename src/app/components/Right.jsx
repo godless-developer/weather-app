@@ -1,11 +1,11 @@
-import { NightDark } from "./Night";
+import { RightCard } from "./RightCard";
 
-export const RightSide = ({ selectedCity, coldTemp, condition, loading }) => {
+export const RightSide = ({ selectedCity, nightTemp, condition, loading }) => {
   return (
     <div className="w-[50%] h-[100%] flex justify-center items-center bg-[#0F141E]">
-      <NightDark
+      <RightCard
         selectedCity={selectedCity}
-        coldTemp={coldTemp}
+        nightTemp={nightTemp}
         condition={condition}
         loading={loading}
       />
